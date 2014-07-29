@@ -1,0 +1,182 @@
+body, html {
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+a p{
+  color: #ccc;
+  word-wrap: break-word
+}
+
+ul a:visited
+{
+color: #ccc;
+}
+
+header {
+  height: 50px;
+}
+
+header img {
+  margin: 0 auto;
+  display: block;
+}
+
+#col1, #col2, #col3 {
+  width: 33.33%;
+  float: left;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  height: 100%;
+}
+
+#col1 {
+  border-top: 1px solid #fc6500;
+}
+
+#col2 {
+  border-top: 1px solid #2c71d8;
+}
+
+#col3 {
+  border-top: 1px solid #da552f;
+}
+
+#title {
+  margin-top: 30px;
+  text-align: center;
+}
+
+ul {
+  margin-top: 30px;
+  padding: 0px 30px;
+  line-height: 20px;
+}
+
+li {
+  margin-bottom: 30px;
+  color: black;
+}
+
+footer {
+  clear: both;
+  position: relative;
+  z-index: 10;
+  height: 3em;
+  margin-top: -3em;
+  text-align: center;
+  color: #999;
+}
+
+footer p {
+  padding-top: 16px;
+}
+
+
+/* Gmail style scrollbar */
+::-webkit-scrollbar {
+    width: 10px
+}
+::-webkit-scrollbar-thumb {
+    border-width: 1px 1px 1px 2px
+}
+::-webkit-scrollbar-track {
+    border-width: 0
+}
+::-webkit-scrollbar {
+    height: 16px;
+    overflow: visible;
+    width: 10px;
+}
+::-webkit-scrollbar-button {
+    height: 0;
+    width: 0;
+}
+::-webkit-scrollbar-track {
+    background-clip: padding-box;
+    border: solid transparent;
+    border-width: 0 0 0 4px;
+}
+::-webkit-scrollbar-track:horizontal {
+    border-width: 4px 0 0
+}
+::-webkit-scrollbar-track:hover {
+    background-color: #f1f1f1;
+}
+::-webkit-scrollbar-track:active {
+    background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #f1f1f1;
+    background-clip: padding-box;
+    border: solid transparent;
+    border-width: 1px 1px 1px 6px;
+    min-height: 28px;
+    padding: 100px 0 0;
+}
+::-webkit-scrollbar-thumb:horizontal {
+    border-width: 6px 1px 1px;
+    padding: 0 0 0 100px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: background-color: #f1f1f1;
+}
+::-webkit-scrollbar-track {
+    border-width: 0 1px 0 6px
+}
+::-webkit-scrollbar-track:horizontal {
+    border-width: 6px 0 1px
+}
+::-webkit-scrollbar-track:hover {
+    background-color: #fff;
+}
+::-webkit-scrollbar-thumb {
+    border-width: 0 1px 0 6px
+}
+::-webkit-scrollbar-thumb:horizontal {
+    border-width: 6px 0 1px
+}
+::-webkit-scrollbar-corner {
+    background: transparent
+}
+body::-webkit-scrollbar-track-piece {
+    background-clip: padding-box;
+    background-color: #f1f1f1;
+    border: solid #fff;
+    border-width: 0 0 0 3px;
+}
+body::-webkit-scrollbar-track-piece:horizontal {
+    border-width: 3px 0 0;
+}
+body::-webkit-scrollbar-thumb {
+    border-width: 1px 1px 1px 5px
+}
+body::-webkit-scrollbar-thumb:horizontal {
+    border-width: 5px 1px 1px
+}
+body::-webkit-scrollbar-corner {
+    background-clip: padding-box;
+    background-color: #f1f1f1;
+    border: solid #fff;
+    border-width: 3px 0 0 3px;
+    box-shadow: inset 1px 1px 0 rgba(220,172,0,.14);
+}
+
+@media (max-width: 600px) {
+  a, h2, p {
+    font-size: 10px;
+    line-height: 13px;
+  }
+
+  #title {
+    font-size: 14px;
+  }
+
+}
