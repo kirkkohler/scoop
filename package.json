@@ -1,0 +1,24 @@
+{
+  "name": "scoop",
+  "version": "0.0.0",
+  "description": "0.0.1",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kirkkohler/scoop.git"
+  },
+  "keywords": [
+    "scoop"
+  ],
+  "author": "Kirk Kohler",
+  "bugs": {
+    "url": "https://github.com/kirkkohler/scoop/issues"
+  },
+  "homepage": "https://github.com/kirkkohler/scoop",
+  "devDependencies": {
+    "http-server": "~0.7.4"
+  }
+}
